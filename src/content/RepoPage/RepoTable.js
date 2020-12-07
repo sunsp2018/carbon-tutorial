@@ -11,7 +11,7 @@ import {
   TableExpandRow,
   TableCell,
   TableExpandedRow,
-} from 'carbon-components-react/lib/components/DataTable';
+} from 'carbon-components-react';
 
 const RepoTable = ({ rows, headers }) => {
   return (
@@ -59,4 +59,5 @@ const RepoTable = ({ rows, headers }) => {
     />
   );
 };
+
 export default RepoTable;
